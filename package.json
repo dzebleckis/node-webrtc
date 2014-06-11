@@ -48,7 +48,8 @@
   "binary": {
     "module_name": "wrtc",
     "module_path": "./lib/binding",
-    "host": "https://wrtc-binaries.s3.amazonaws.com",
+//    "host": "https://wrtc-binaries.s3.amazonaws.com",
+    "host": "https://github.com/dzebleckis/node-webrtc/tree/no-dtls/release"
     "remote_path": "./{module_name}/v{version}/{configuration}/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz"
   }
